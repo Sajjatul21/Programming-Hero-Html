@@ -2,3 +2,7 @@ h3 {
     font-size: 30px;
     text-decoration: overline;
 }
+.second{
+/* visibility: hidden; */
+display: none;
+}
