@@ -16,6 +16,8 @@ h3 {
 }
 
 .voluptatibus {
+    /* display: block; */
+    display: inline-block;
     border: 2px solid purple;
     /* height: 200px ; */
     margin: 20px;
