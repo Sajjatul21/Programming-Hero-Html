@@ -11,6 +11,13 @@
 
 }
 
+.dolor {
+    border: 2px solid purple;
+    height: 60px;
+    /* display: block; */
+    display: inline-block;
+}
+
 h3 {
     font-size: 30px;
     text-decoration: overline;
