@@ -3,6 +3,13 @@
     background-color: blanchedalmond;
     display: flex;
     gap: 30px;
+    /* justify-items: start;  by default*/
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+
 }
 
 .child {
