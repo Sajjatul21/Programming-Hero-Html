@@ -7,8 +7,12 @@
     /* justify-content: center; */
     /* justify-content: end; */
     /* justify-content: space-around; */
-    /* justify-content: space-between; */
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    height: 400px;
+    /* align-items: stretch; by default */
+    /* align-items: end; */
+    align-items: center;
 
 }
 
