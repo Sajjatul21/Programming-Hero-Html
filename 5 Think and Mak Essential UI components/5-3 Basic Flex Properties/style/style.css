@@ -2,6 +2,7 @@
     padding: 25px;
     background-color: blanchedalmond;
     display: flex;
+    gap: 30px;
 }
 
 .child {
@@ -11,5 +12,5 @@
     font-size: 18px;
     margin: 10px 0;
     border-radius: 5px;
-    
+
 }
