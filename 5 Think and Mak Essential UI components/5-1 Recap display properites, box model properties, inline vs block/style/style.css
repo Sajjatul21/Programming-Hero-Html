@@ -1,6 +1,7 @@
 .parent {
     padding: 25px;
     background-color: blanchedalmond;
+    display: flex;
 }
 
 .child {
@@ -10,6 +11,5 @@
     font-size: 18px;
     margin: 10px 0;
     border-radius: 5px;
-    display: inline;
-    width: 400px;
+    
 }
