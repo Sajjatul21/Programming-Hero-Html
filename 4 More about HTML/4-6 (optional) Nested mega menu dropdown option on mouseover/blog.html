@@ -5,17 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/nav.css">
     <title>My blog</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        nav>
             <ul>
                 <li><a href="video.html">Video</a></li>
                 <li><a href="table.htm">Table</a></li>
-
-                <li><a href="blog.html">Blog</a></li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="table.htm">Table</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="form.html">From</a></li>
+                    </ul>
+                </li>
                 <li><a href="form.html">From</a></li>
             </ul>
         </nav>
