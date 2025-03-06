@@ -147,3 +147,60 @@ height is 919 * 01.71 = 652
     font-weight: 600;
 
 }
+
+
+.about-container {
+
+    height: 476px;
+    display: flex;
+    align-items: center;
+
+}
+
+.about-container .about-images {
+    width: 50%;
+
+}
+
+.about-container .about-images img {
+    width: 100%;
+    height: 476px;
+}
+
+.about-container .about-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text .about-heading {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-text .about-sub-heading {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+    margin-top: 24px;
+
+}
+
+.about-text .about-contact {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 48px;
+    text-align: center;
+}
