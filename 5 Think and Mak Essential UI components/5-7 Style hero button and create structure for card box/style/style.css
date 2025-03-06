@@ -10,6 +10,27 @@ height is 919 * 01.71 = 652
     padding: 0;
 }
 
+.btn-container {
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(82, 195, 3);
+    padding: 21px 32px 21px 32px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+
+}
+
 #hero {
     height: 652px;
     background-image: linear-gradient(0deg, rgb(9, 9, 9) 3.482%, rgba(16, 16, 16, 0) 101.632%),
