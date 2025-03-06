@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", sans-serif; */
+/* go to consol and type window.innerWidth to get your screen size
+in fixo screen size is 1920 my screen size is 1360 (1366 / 1920- = 0.71)
+height is 919 * 01.71 = 652
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-container {
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(82, 195, 3);
+    padding: 21px 32px 21px 32px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+
+}
+
+#hero {
+    height: 652px;
+    background-image: linear-gradient(0deg, rgb(9, 9, 9) 3.482%, rgba(16, 16, 16, 0) 101.632%),
+        url('/assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    width: 726px;
+
+}
+
+#hero .hero-content .subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 10px;
+
+}
+
+#hero .hero-content .title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+#hero .hero-content .description {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+
+}
