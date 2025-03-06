@@ -83,3 +83,29 @@ height is 919 * 01.71 = 652
     margin-bottom: 32px;
 
 }
+
+#cart-box {
+    width: 937px;
+    margin: 50px auto;
+}
+
+#cart-box .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+#cart-box .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
