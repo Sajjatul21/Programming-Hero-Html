@@ -1,2 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* font-family: "Work Sans", sans-serif; */
+/* go to consol and type window.innerWidth to get your screen size
+in fixo screen size is 1920 my screen size is 1360 (1366 / 1920- = 0.71)
+height is 919 * 1.40 = 652
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    height: 652px;
+    background-image: linear-gradient(0deg, rgb(9, 9, 9) 3.482%, rgba(16, 16, 16, 0) 101.632%),
+        url('/assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+
+}
