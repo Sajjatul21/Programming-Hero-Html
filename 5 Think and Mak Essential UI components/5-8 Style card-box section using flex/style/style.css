@@ -113,6 +113,11 @@ height is 919 * 01.71 = 652
 
 .cart-container {
     margin-top: 31px;
+    font-family: Work Sans;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
 }
 
 .cart {
