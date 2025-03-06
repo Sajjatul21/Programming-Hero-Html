@@ -25,3 +25,14 @@ height is 919 * 01.71 = 652
     width: 726px;
 
 }
+
+#hero .subtitle {
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+
+}
