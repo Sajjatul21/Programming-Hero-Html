@@ -38,6 +38,21 @@
     margin-right: 30px;
 }
 
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+}
+
+.text-center {
+    text-align: center;
+}
+
 /* nav bar */
 nav {
     display: flex;
@@ -111,17 +126,6 @@ main {
     padding: 130px 150px;
     text-align: center;
     margin-top: 130px;
-}
-
-.section-title {
-    font-size: 35px;
-    font-weight: bold;
-    color: #181818;
-}
-
-.section-description {
-    color: #757575;
-    font-size: 18px;
 }
 
 .about-items {
