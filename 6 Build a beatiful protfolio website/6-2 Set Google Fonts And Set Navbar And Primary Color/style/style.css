@@ -8,6 +8,12 @@
 
 
 /* shared style */
+.header {
+    background-image: url("/images/developer.png"), url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 .text-primary {
     color: #FD6E0A;
 }
@@ -59,8 +65,14 @@ nav li a {
 }
 
 /* banner style  */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
 .banner-container {
-    width: 585px;
+    max-width: 585px;
 }
 
 .banner-greetings {
@@ -79,5 +91,6 @@ nav li a {
 }
 
 .banner-profile-pic {
-    width: 585px;
+    max-width: 585px;
+    height: 667px;
 }
