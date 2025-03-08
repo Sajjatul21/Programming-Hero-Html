@@ -155,3 +155,23 @@ main {
     border-radius: 5px;
 
 }
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.experience-sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.experience-sub-title,
+.experience-description {
+    color: #757575;
+}
+
+.resume hr {
+    margin: 30px 5px;
+}
