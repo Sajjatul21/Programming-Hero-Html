@@ -8,17 +8,37 @@
 
 /* shared style */
 
-.dark-2 {
-    color: #474747;
+body {
+    font-family: "Open Sans", sans-serif;
 }
 
-nav {
-    display: flex;
+.dark-2 {
+    color: #474747;
 }
 
 .text-primary {
     color: #FD6E0A;
 }
+
+.btn-primary {
+    color: white;
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 35px;
+}
+
+/* nav style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+
 
 nav .nav-title {
     font-size: 45px;
@@ -28,10 +48,13 @@ nav .nav-title {
 
 nav ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul li {
     list-style: none;
+    margin-right: 50px;
 }
 
 nav li a {
