@@ -64,8 +64,22 @@ nav li a {
 }
 
 /* banner style */
+
+.header {
+    background-image: url('/images/developer.png'), url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 20px;
+}
+
 .banner-container {
-    width: 558px;
+    max-width: 558px;
+
 }
 
 .banner-greetings {
@@ -84,5 +98,6 @@ nav li a {
 }
 
 .banner-profile-pic {
-    width: 558px;
+    max-width: 558px;
+    height: 676px;
 }
