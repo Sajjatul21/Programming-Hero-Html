@@ -20,6 +20,10 @@ body {
     color: #FD6E0A;
 }
 
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
 .btn-primary {
     color: white;
     background-color: #FD6E0A;
@@ -68,7 +72,8 @@ nav li a {
 .header {
     background-image: url('/images/developer.png'), url('/images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    /* background-position: top left, bottom right; */
+    background-position: left top, right bottom;
 }
 
 .banner {
@@ -100,4 +105,17 @@ nav li a {
 .banner-profile-pic {
     max-width: 558px;
     height: 676px;
+}
+
+/* mani section  */
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
 }
