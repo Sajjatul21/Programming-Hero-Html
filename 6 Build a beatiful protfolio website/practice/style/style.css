@@ -83,6 +83,11 @@ nav li a {
     font-size: 20px;
 }
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* banner style */
 
 .header {
@@ -179,4 +184,28 @@ nav li a {
 
 .resume-download-cv {
     margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    padding: 154px 220px 100px 230px;
+    margin-top: 230px;
+    gap: 117px;
+}
+
+footer .footer-column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type='email'],
+textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
