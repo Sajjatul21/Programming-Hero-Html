@@ -24,6 +24,14 @@
             background-color: tomato;
             /* padding: 200px;       Properties NOT supported by ::first-line: padding, margin, border, width, height, overflow, display, position */
         }
+
+        ::selection {
+            background-color: gray;
+        }
+
+        input::placeholder {
+            color: brown;
+        }
     </style>
 </head>
 
@@ -39,6 +47,7 @@
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati voluptates incidunt veniam mollitia nobis
         culpa, quisquam fuga explicabo molestiae excepturi.</p>
 
+    <input type="text" placeholder="enter the text">
 </body>
 
 </html>
