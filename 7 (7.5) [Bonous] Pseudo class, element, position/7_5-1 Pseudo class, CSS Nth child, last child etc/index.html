@@ -25,6 +25,28 @@
             /* color: gray; */
             color: blue;
         }
+
+        /* 
+        li:last-child {
+            color: red;
+        }
+
+        li:first-child {
+            background-color: tomato;
+        }
+ */
+        /* li:nth-child(2n) {   // even children
+            background-color: gray;
+        } */
+        li:nth-child(2n+1) {
+            /*odd children */
+            background-color: gold;
+        }
+
+        li:nth-child(2n+3) {
+            background-color: gray;
+            padding: 20px;
+        }
     </STYle>
 </head>
 
@@ -38,6 +60,15 @@
 
     <a href="https://www.google.com/">google</a><br>
     <a href="https://react.dev/">rect</a>
+    <ul>
+        <li>List-1</li>
+        <li>List-2</li>
+        <li>List-3</li>
+        <li>List-4</li>
+        <li>List-5</li>
+        <li>List-6</li>
+        <li>List-7</li>
+    </ul>
 </body>
 
 </html>
